@@ -1,3 +1,7 @@
+# Copyright 2024 QuIC
+#
+# SPDX-License-Identifier: BSD-3-Clause
+
 FROM ubuntu:22.04
 RUN DEBIAN_FRONTEND=noninteractive apt-get -y update && \
     DEBIAN_FRONTEND=noninteractive apt-get install -y wget libglib2.0-0 libnss3 python3-pip
